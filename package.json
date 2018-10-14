@@ -1,0 +1,22 @@
+{
+  "name": "@datagica/process-pool",
+  "version": "0.0.0",
+  "description": "Manage a process pool",
+  "main": "./index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --harmony --bail --require chai tests/*.js"
+  },
+  "author": "Julian Bilcke <julian.bilcke@datagica.com>",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/datagica/process-pool.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
